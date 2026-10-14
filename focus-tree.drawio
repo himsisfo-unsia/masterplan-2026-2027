@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram name="HIMA REFORM GRAND PLAN" id="gbQC1g_rmJ9Ox6dMslaq">
-    <mxGraphModel dx="3962" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4243" dy="972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -169,6 +169,13 @@
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PROGRAM PENINGKATAN SKILL" vertex="1">
           <mxGeometry height="60" width="120" x="-450" y="510" as="geometry" />
         </mxCell>
+        <mxCell id="_IdS9ASnmNFT1SLLR5cq-5" edge="1" parent="1" source="qzv-LVtL3dQrwDSMzqVT-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_IdS9ASnmNFT1SLLR5cq-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-550" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PROGRAM&lt;div&gt;TRAINING&lt;/div&gt;&lt;div&gt;(CODE, SECURITY)&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-500" y="690" as="geometry" />
         </mxCell>
@@ -183,6 +190,9 @@
         </mxCell>
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;LOMBA&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-400" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="_IdS9ASnmNFT1SLLR5cq-6" edge="1" parent="1" source="qzv-LVtL3dQrwDSMzqVT-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_IdS9ASnmNFT1SLLR5cq-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;PROGRAM&lt;br&gt;LOMBA&lt;/div&gt;&lt;div&gt;INTERNAL&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-470" y="930" as="geometry" />
@@ -335,6 +345,9 @@
         </mxCell>
         <mxCell id="_IdS9ASnmNFT1SLLR5cq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BLACKLIST KOMUNIKASI" vertex="1">
           <mxGeometry height="60" width="120" x="1070" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="_IdS9ASnmNFT1SLLR5cq-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HIMSISFO WEB INNOVATION CHALLENGE" vertex="1">
+          <mxGeometry height="60" width="120" x="-610" y="1050" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
