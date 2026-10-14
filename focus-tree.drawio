@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0" pages="3">
   <diagram name="HIMA REFORM GRAND PLAN" id="gbQC1g_rmJ9Ox6dMslaq">
-    <mxGraphModel dx="3921" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3962" dy="817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
         <mxCell id="17ijcQs9vut2pD2LXgDH-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PEMBENTUKAN&lt;div&gt;DIVISI&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-450" y="210" as="geometry" />
         </mxCell>
-        <mxCell id="17ijcQs9vut2pD2LXgDH-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="17ijcQs9vut2pD2LXgDH-10">
+        <mxCell id="17ijcQs9vut2pD2LXgDH-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-100" y="530" as="sourcePoint" />
           </mxGeometry>
@@ -275,11 +275,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qzv-LVtL3dQrwDSMzqVT-65" edge="1" parent="1" source="qzv-LVtL3dQrwDSMzqVT-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qzv-LVtL3dQrwDSMzqVT-69">
+        <mxCell id="_IdS9ASnmNFT1SLLR5cq-2" edge="1" parent="1" source="qzv-LVtL3dQrwDSMzqVT-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="_IdS9ASnmNFT1SLLR5cq-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_IdS9ASnmNFT1SLLR5cq-3" edge="1" parent="1" source="qzv-LVtL3dQrwDSMzqVT-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="qzv-LVtL3dQrwDSMzqVT-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1005" y="590" />
-              <mxPoint x="1005" y="829.47" />
+              <mxPoint x="1020" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -293,7 +295,7 @@
           <mxGeometry height="100" width="350" x="45" y="860" as="geometry" />
         </mxCell>
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="KOLABORASI&lt;br&gt;DESAIN KOMUNIKASI" vertex="1">
-          <mxGeometry height="60" width="120" x="945" y="830" as="geometry" />
+          <mxGeometry height="60" width="120" x="960" y="690" as="geometry" />
         </mxCell>
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-71" edge="1" parent="1" source="qzv-LVtL3dQrwDSMzqVT-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qzv-LVtL3dQrwDSMzqVT-53">
           <mxGeometry relative="1" as="geometry" />
@@ -330,6 +332,9 @@
         </mxCell>
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-86" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="TEMPLATE BROSUR EVENT" vertex="1">
           <mxGeometry height="60" width="120" x="-2275" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="_IdS9ASnmNFT1SLLR5cq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BLACKLIST KOMUNIKASI" vertex="1">
+          <mxGeometry height="60" width="120" x="1070" y="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
