@@ -7,13 +7,16 @@
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-72" edge="1" parent="1" source="17ijcQs9vut2pD2LXgDH-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="17ijcQs9vut2pD2LXgDH-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="17ijcQs9vut2pD2LXgDH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="REORGANISASI HIMA" vertex="1">
+        <mxCell id="17ijcQs9vut2pD2LXgDH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="REORGANISASI HIMA" vertex="1">
           <mxGeometry height="60" width="120" x="-450" y="10" as="geometry" />
         </mxCell>
         <mxCell id="17ijcQs9vut2pD2LXgDH-29" edge="1" parent="1" source="17ijcQs9vut2pD2LXgDH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="17ijcQs9vut2pD2LXgDH-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17ijcQs9vut2pD2LXgDH-30" edge="1" parent="1" source="17ijcQs9vut2pD2LXgDH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="17ijcQs9vut2pD2LXgDH-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3IqUthYTdB9i9cqaYBuL-2" edge="1" parent="1" source="17ijcQs9vut2pD2LXgDH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="3IqUthYTdB9i9cqaYBuL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="17ijcQs9vut2pD2LXgDH-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="JANGKAU MAHASISWA" vertex="1">
@@ -109,6 +112,9 @@
         </mxCell>
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HARMONISASI&lt;div&gt;LINGKUNGAN&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="-765" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="_IdS9ASnmNFT1SLLR5cq-8" edge="1" parent="1" source="qzv-LVtL3dQrwDSMzqVT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_IdS9ASnmNFT1SLLR5cq-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="TINGKATKAN BENEFIT ANGGOTA" vertex="1">
           <mxGeometry height="60" width="120" x="-765" y="530" as="geometry" />
@@ -349,6 +355,12 @@
         <mxCell id="_IdS9ASnmNFT1SLLR5cq-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="HIMSISFO WEB INNOVATION CHALLENGE" vertex="1">
           <mxGeometry height="60" width="120" x="-610" y="1050" as="geometry" />
         </mxCell>
+        <mxCell id="_IdS9ASnmNFT1SLLR5cq-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PENINGKATAN SKILL KHUSUS ANGGOTA" vertex="1">
+          <mxGeometry height="60" width="120" x="-730" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="3IqUthYTdB9i9cqaYBuL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WEBSITE RESMI HIMSISFO" vertex="1">
+          <mxGeometry height="60" width="120" x="-1280" y="695" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -489,8 +501,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="NdTS8eT7qjMol-gMUoPu" name="Structure_Role">
-    <mxGraphModel dx="1008" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="NdTS8eT7qjMol-gMUoPu" name="STRUKTUR ORGANISASI">
+    <mxGraphModel dx="1597" dy="881" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -547,23 +559,48 @@
         <mxCell id="M-4QLfHSWYejD21ERWxu-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BENDAHARA" vertex="1">
           <mxGeometry height="60" width="120" x="528" y="150" as="geometry" />
         </mxCell>
+        <mxCell id="zy6fYdKMrSwqnn1-RNlL-3" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="M-4QLfHSWYejD21ERWxu-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI PERENCANAAN &amp;amp; PENGEMBANGAN PROGRAM" vertex="1">
           <mxGeometry height="60" width="120" x="618" y="270" as="geometry" />
         </mxCell>
+        <mxCell id="zy6fYdKMrSwqnn1-RNlL-1" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="M-4QLfHSWYejD21ERWxu-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="324" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI MEDIA KREATIF" vertex="1">
           <mxGeometry height="60" width="120" x="264" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="zy6fYdKMrSwqnn1-RNlL-2" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="M-4QLfHSWYejD21ERWxu-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI ADMINISTRASI &amp;amp; MEDIA INFORMASI" vertex="1">
           <mxGeometry height="60" width="120" x="90" y="270" as="geometry" />
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-24" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M-4QLfHSWYejD21ERWxu-16">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="501" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI SUMBER DAYA MANUSIA" vertex="1">
           <mxGeometry height="60" width="120" x="441" y="270" as="geometry" />
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ANGGOTA&lt;br&gt;OPERASIONAL" vertex="1">
-          <mxGeometry height="60" width="120" x="441" y="390" as="geometry" />
+          <mxGeometry height="60" width="120" x="354" y="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
