@@ -599,7 +599,7 @@
         <mxCell id="SveKrrZKj62WD1axqN30-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI RELASI &amp;amp; KEMITRAAN" vertex="1">
           <mxGeometry height="60" width="120" x="204" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="SveKrrZKj62WD1axqN30-16" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.708;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="M-4QLfHSWYejD21ERWxu-16">
+        <mxCell id="SveKrrZKj62WD1axqN30-16" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.708;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" target="M-4QLfHSWYejD21ERWxu-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SveKrrZKj62WD1axqN30-17" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.916;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="M-4QLfHSWYejD21ERWxu-16">
