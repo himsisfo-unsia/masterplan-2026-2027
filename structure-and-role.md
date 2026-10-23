@@ -15,7 +15,7 @@ Dokumen ini menetapkan fungsi dan batas tanggung jawab. Penempatan nama personel
 - Struktur harus ramping dan dapat dijalankan oleh anggota yang tersedia.
 - Perangkapan fungsi diperbolehkan sementara, tetapi tanggung jawab tetap harus jelas.
 - Setiap pekerjaan harus memiliki pemilik, keluaran, dan jalur eskalasi.
-- Pengurus inti (Ketua, Wakil Ketua 1, Wakil Ketua 2, Sekretaris, Bendahara) menjaga mandat, koordinasi, administrasi, dan keuangan.
+- Pengurus inti (Ketua, Wakil Ketua, Sekretaris, Bendahara) menjaga mandat, koordinasi, administrasi, dan keuangan.
 - Divisi menjaga fungsi operasional organisasi.
 - Anggota operasional ditempatkan pada divisi atau proyek berdasarkan kebutuhan, kapasitas, dan minat.
 - Program tidak berdiri sebagai divisi tersendiri. Perencanaan hingga pelaksanaan program, termasuk riset, inovasi, dan kreasi, merupakan mandat Divisi Perencanaan & Pengembangan Program dengan dukungan divisi lain dan anggota operasional.
@@ -26,15 +26,12 @@ Dokumen ini menetapkan fungsi dan batas tanggung jawab. Penempatan nama personel
 ```mermaid
 flowchart TD
     %% PUCUK PIMPINAN
-    subgraph Pimpinan["PUCUK PIMPINAN HIMA"]
-        Ketua["<b>KETUA HIMA</b><br/>• Mandat Moral & Arah Strategis<br/>• Representasi Formal Lembaga<br/>• Pengambil Keputusan Tertinggi"]
-        Wakil1["<b>WAKIL KETUA 1 (INTERNAL & KOMUNIKASI)</b><br/>• Pengendali Operasional Internal<br/>• Koordinasi Klaster Divisi: AMI, MK, PAK<br/>• Pengawalan Layanan & Anggota"]
-        Wakil2["<b>WAKIL KETUA 2 (PROGRAM & EKSTERNAL)</b><br/>• Pengendali Operasional Eksternal & Karya<br/>• Koordinasi Klaster Divisi: P3, BK, RP<br/>• Pengawalan Proyek, Dana & Kolaborasi"]
+    subgraph Pimpinan["PUCUK PIMPINAN HIMA (KETUA & WAKIL KETUA)"]
+        Ketua["<b>KETUA HIMA</b><br/>• Mandat Moral & Arah Strategis<br/>• Representasi Formal Lembaga<br/>• Persetujuan Kebijakan & Program"]
+        WakilKetua["<b>WAKIL KETUA HIMA</b><br/>• Pengendali Operasional Organisasi<br/>• Koordinasi Progres 6 Divisi<br/>• Pengawalan Eksekusi & Sinergi Internal"]
     end
 
-    Ketua <===>|"Sinergi Arah Strategis"| Wakil1
-    Ketua <===>|"Sinergi Arah Strategis"| Wakil2
-    Wakil1 <-.->|"Sinkronisasi Operasional Internal-Eksternal"| Wakil2
+    Ketua <===>|"Kemitraan Strategis & Operasional"| WakilKetua
 
     %% TATA KELOLA ADMINISTRASI & KEUANGAN
     subgraph BPH["TATA KELOLA ADMINISTRASI & KEUANGAN (BPH)"]
@@ -56,13 +53,12 @@ flowchart TD
         DivRP["<b>Divisi Relasi Publik (RP)</b><br/>• Aliansi Serumpun (Tripartite Pact IF/TI)<br/>• Kolaborasi Ormawa, Prodi & Kampus Lain<br/>• Media Partner & Narahubung Narasumber Luar"]
     end
 
-    Wakil1 ==>|"Koordinasi Klaster Internal"| DivAMI
-    Wakil1 ==>|"Koordinasi Klaster Internal"| DivMK
-    Wakil1 ==>|"Koordinasi Klaster Internal"| DivPAK
-
-    Wakil2 ==>|"Koordinasi Klaster Eksternal & Proyek"| DivP3
-    Wakil2 ==>|"Koordinasi Klaster Eksternal & Proyek"| DivBK
-    Wakil2 ==>|"Koordinasi Klaster Eksternal & Proyek"| DivRP
+    WakilKetua ==>|"Koordinasi Progres Harian"| DivAMI
+    WakilKetua ==>|"Koordinasi Progres Harian"| DivMK
+    WakilKetua ==>|"Koordinasi Progres Harian"| DivP3
+    WakilKetua ==>|"Koordinasi Progres Harian"| DivPAK
+    WakilKetua ==>|"Koordinasi Progres Harian"| DivBK
+    WakilKetua ==>|"Koordinasi Progres Harian"| DivRP
 
     %% POOL PELAKSANA DUA JALUR
     subgraph PoolPelaksana["POOL PELAKSANA (SISTEM KEANGGOTAAN DUA JALUR)"]
@@ -92,7 +88,7 @@ flowchart TD
     classDef coreMember fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e3a8a;
     classDef supportMember fill:#fefce8,stroke:#eab308,stroke-width:2px,color:#713f12;
 
-    class Ketua,Wakil1,Wakil2 leader;
+    class Ketua,WakilKetua leader;
     class Sekretaris,Bendahara bph;
     class DivAMI,DivMK,DivP3,DivPAK,DivBK,DivRP divBox;
     class AnggotaUtama coreMember;
@@ -101,10 +97,7 @@ flowchart TD
 
 ### Ringkasan Tingkatan Struktur:
 
-- **Pengurus Inti (BPH)**: Ketua, Wakil Ketua 1, Wakil Ketua 2, Sekretaris, Bendahara
-- **Klaster Koordinasi Operasional**:
-  - **Klaster Internal & Komunikasi (Wakil Ketua 1)**: Divisi AMI, Divisi MK, Divisi PAK
-  - **Klaster Program, Bisnis & Relasi (Wakil Ketua 2)**: Divisi P3, Divisi BK, Divisi RP
+- **Pengurus Inti (BPH)**: Ketua, Wakil Ketua, Sekretaris, Bendahara
 - **Divisi Operasional (6 Divisi)**:
   - Divisi Administrasi & Media Informasi (AMI)
   - Divisi Media & Kreatif (MK)
@@ -116,13 +109,9 @@ flowchart TD
   - **Anggota Utama**: Penempatan divisi tetap, ritme rutin harian/mingguan (≥3 jam/minggu), memegang PIC fungsi
   - **Anggota Pendukung**: Pool on-demand / task-force, kontribusi per-proyek, insidental, atau one-time (1–2 jam/minggu atau ad-hoc)
 
-Kelima pengurus inti bekerja sebagai satu kepengurusan terpimpin.
+Keempat pengurus inti bekerja sebagai satu kepengurusan.
 
-> [!NOTE]
-> **Catatan Ketersediaan SDM (Opsi Wakil Tunggal):**
-> Skema 2 Wakil Ketua adalah struktur ideal berbasis klaster. Namun, **apabila ketersediaan SDM/personel tidak memungkinkan atau masih terbatas**, maka jabatan Wakil Ketua **hanya ada 1 (satu)**. Dalam kondisi ini, Wakil Ketua tunggal mengoordinasikan seluruh 6 divisi operasional secara langsung dengan memprioritaskan fungsi-fungsi paling krusial.
-
-Kepala divisi bertanggung jawab kepada Ketua dan Wakil Ketua pembina klasternya (atau Wakil Ketua tunggal jika SDM terbatas) sesuai jalur koordinasi yang ditetapkan. Anggota operasional bertanggung jawab kepada kepala divisi atau koordinator proyek yang menugaskannya.
+Kepala divisi bertanggung jawab kepada Ketua dan Wakil Ketua sesuai jalur koordinasi yang ditetapkan. Anggota operasional bertanggung jawab kepada kepala divisi atau koordinator proyek yang menugaskannya.
 
 ## 4. Pengurus Inti
 
@@ -144,57 +133,22 @@ Kepala divisi bertanggung jawab kepada Ketua dan Wakil Ketua pembina klasternya 
 - Menjadi satu-satunya penghubung komunikasi.
 - Menggantikan fungsi kepala divisi.
 
-### Wakil Ketua 1 (Bidang Internal, Komunikasi & Keanggotaan)
+### Wakil Ketua
 
-**Mandat:** Mengendalikan operasional organisasi ke dalam, mengoordinasikan arus informasi sivitas, identitas publikasi visual, serta tata kelola anggota dan komunitas.
-
-**Klaster Divisi yang Dibawahi:**
-
-1. **Divisi Administrasi & Media Informasi (AMI)**
-2. **Divisi Media & Kreatif (MK)**
-3. **Divisi Pemberdayaan Anggota & Komunitas (PAK)**
+**Mandat:** Menjaga koordinasi kerja, progres operasional lintas 6 divisi, dan tindak lanjut eksekusi kepengurusan.
 
 **Tanggung jawab:**
 
-- Mengoordinasikan kerja harian dan mingguan Divisi AMI, MK, dan PAK agar informasi sivitas lancar, media sosial aktif, dan anggota terkelola dengan baik.
-- Memastikan keselarasan antara publikasi visual (MK) dengan diseminasi informasi ke grup mahasiswa SI (AMI).
-- Mengawal program keterlibatan anggota dan dinamika komunitas minat bersama Divisi PAK.
-- Menyelesaikan hambatan operasional di tingkat klaster internal dan melaporkan progresnya secara berkala kepada Ketua.
-- Menjadi pelaksana tugas Ketua apabila Ketua berhalangan pada ranah internal organisasi.
+- Mengoordinasikan 6 kepala divisi dan membantu menyelesaikan hambatan kerja internal maupun eksternal.
+- Memastikan hasil rapat berubah menjadi penugasan konkret, tenggat waktu, dan tindak lanjut yang tuntas.
+- Memantau progres kerja periodik seluruh divisi serta mengeskalasi pekerjaan yang macet kepada Ketua.
+- Menjadi pengganti Ketua apabila Ketua berhalangan.
+- Bekerja sama secara aktif dengan Divisi Pemberdayaan Anggota & Komunitas (PAK) untuk menjaga kesehatan beban kerja dan keterlibatan anggota.
 
 **Bukan mandat utama:**
 
-- Mengambil alih tugas teknis kepala divisi AMI, MK, atau PAK.
-- Mengintervensi negosiasi sponsor atau hubungan ormawa eksternal tanpa koordinasi dengan Wakil Ketua 2.
-
----
-
-### Wakil Ketua 2 (Bidang Program, Bisnis & Relasi Eksternal)
-
-**Mandat:** Mengendalikan operasional program kerja nyata, riset & kreasi, inisiatif bisnis/sponsorship, serta diplomasi jejaring eksternal organisasi.
-
-**Klaster Divisi yang Dibawahi:**
-
-1. **Divisi Perencanaan & Pengembangan Program (P3)**
-2. **Divisi Bisnis & Kemitraan (BK)**
-3. **Divisi Relasi Publik (RP)**
-
-**Tanggung jawab:**
-
-- Mengoordinasikan pelaksanaan program kerja, pilar riset/inovasi/kreasi (P3), pencarian sponsor/dana usaha (BK), dan relasi ormawa/mitra (RP).
-- Mengawal eksekusi proyek unggulan (seperti _HIMSISFO Web Innovation Challenge_, website resmi, dan program kompetisi).
-- Memastikan integrasi antara perencanaan program (P3), kebutuhan pendanaan/sponsor (BK), dan pemenuhan narasumber/media partner luar (RP).
-- Menyelesaikan hambatan di tingkat klaster program/eksternal dan melaporkan progresnya secara berkala kepada Ketua.
-- Mewakili Ketua dalam forum eksternal atau penjajakan kemitraan strategis apabila Ketua berhalangan.
-
-**Bukan mandat utama:**
-
-- Mengambil alih tugas teknis kepala divisi P3, BK, atau RP.
-- Mengurus teknis broadcast grup kelas atau urusan internal keanggotaan (ranah Wakil Ketua 1).
-
-> [!IMPORTANT]
-> **Ketentuan Kontinjensi (Wakil Tunggal):**
-> Jika kapasitas dan ketersediaan SDM pengurus tidak memungkinkan untuk mengisi dua posisi wakil, mandat Wakil Ketua 1 dan Wakil Ketua 2 digabung kembali menjadi **Wakil Ketua Tunggal**. Wakil Ketua tunggal bertindak sebagai pengendali operasional umum bagi seluruh 6 divisi, dibantu secara aktif oleh para kepala divisi.
+- Mengambil alih seluruh tugas teknis kepala divisi.
+- Menjadi satu-satunya pelaksana program kerja.
 
 ### Sekretaris
 
@@ -368,7 +322,7 @@ Kepala divisi bertanggung jawab kepada Ketua dan Wakil Ketua pembina klasternya 
 **Batas peran:**
 
 - Divisi ini mengelola keterlibatan, penugasan anggota, dan pembinaan komunitas.
-- Keputusan arah dan substansi program (termasuk materi training dan riset) tetap berada pada **Divisi P3**, sedangkan koordinasi kinerja lintas divisi berada pada **Wakil Ketua 2**.
+- Keputusan arah dan substansi program (termasuk materi training dan riset) tetap berada pada **Divisi P3**, sedangkan koordinasi kinerja lintas divisi berada pada **Wakil Ketua**.
 - Grup angkatan dan kelas SI tetap dikelola oleh **Divisi AMI**; publikasi kegiatan komunitas di media sosial diproduksi oleh **Divisi MK**.
 
 ### 5.6 Divisi Bisnis & Kemitraan (BK)
@@ -539,7 +493,7 @@ flowchart TD
 | **Beban Tugas**        | Menjaga tugas berkelanjutan & fungsi divisi           | Berbasis paket tugas tuntas (_task-based_ / _event-based_)         |
 | **Hak Sertifikat**     | Sertifikat Anggota Aktif Kepengurusan 1 Periode Penuh | Sertifikat Kontributor Proyek / Panitia per Kegiatan               |
 | **Tingkat Tekanan**    | Moderat (memiliki target operasional divisi)          | Rendah (tidak ada tuntutan operasional rutin)                      |
-| **Manajemen PIC**      | Kepala Divisi terkait & Wakil Ketua Klaster           | Koordinator Proyek Acara & Divisi PAK                              |
+| **Manajemen PIC**      | Kepala Divisi terkait & Wakil Ketua           | Koordinator Proyek Acara & Divisi PAK                              |
 
 ---
 
@@ -574,15 +528,12 @@ flowchart TD
         B3 --> C1
         B4 --> C1
         C1 -- "Ya" --> C2["<b>Ketua</b><br/>Persetujuan Arah & Mandat / Tanda Tangan MoU"]
-        C1 -- "Operasional Rutin Internal" --> C3A["<b>Wakil Ketua 1</b><br/>Monitoring Progres AMI, MK, PAK"]
-        C1 -- "Operasional Rutin Eksternal/Proyek" --> C3B["<b>Wakil Ketua 2</b><br/>Monitoring Progres P3, BK, RP"]
-        C2 --> C3A
-        C2 --> C3B
+        C1 -- "Operasional Rutin" --> C3["<b>Wakil Ketua</b><br/>Koordinasi & Monitoring Progres Lintas 6 Divisi"]
         C2 --> C3
     end
 
     subgraph Eksekusi["4. Eksekusi & Komunikasi Multi-Kanal"]
-        C3B --> D1["<b>Divisi Perencanaan & Pengembangan Program + Panitia</b><br/>Pelaksanaan Kegiatan"]
+        C3 --> D1["<b>Divisi Perencanaan & Pengembangan Program + Panitia</b><br/>Pelaksanaan Kegiatan"]
         D1 --> D2["<b>Divisi Media & Kreatif</b><br/>Produksi Desain Visual, Konten Sosmed & Dokumentasi"]
         D1 --> D3["<b>Divisi Administrasi & Media Informasi</b><br/>Distribusi Pesan & Reminder Mahasiswa Internal SI"]
         D1 --> D4["<b>Divisi Relasi Publik</b><br/>Koordinasi Tamu/Narasumber Luar & Publikasi Media Partner"]
@@ -607,21 +558,17 @@ flowchart TD
 8. **Divisi Relasi Publik** mendistribusikan materi promosi ke jaringan ormawa eksternal dan media partner, serta mendampingi narasumber/tamu eksternal.
 9. **Divisi Bisnis & Kemitraan** memastikan hak sponsor terpenuhi dan menyampaikan laporan pasca-acara kepada sponsor.
 10. **Sekretaris** mencatat notulensi evaluasi, mengelola administrasi LPJ, dan mengarsipkan dokumen secara terpusat.
-11. **Wakil Ketua 1 dan Wakil Ketua 2** memantau progres harian divisi di klasternya masing-masing (Waka 1: AMI, MK, PAK; Waka 2: P3, BK, RP) serta menyelaraskan sinkronisasi lintas klaster secara berkala.
+11. **Wakil Ketua** memantau progres harian lintas 6 divisi operasional dan mengurai hambatan kerja.
 12. **Ketua** memberikan arahan strategis, validasi mandat resmi, dan menandatangani kerja sama kelembagaan/MoU.
 
 ## 8. Ketentuan Kapasitas dan Perangkapan
 
 - Struktur ini menetapkan fungsi operasional berbasis 6 divisi, bukan kewajiban untuk langsung memiliki struktur gemuk.
 - Jika ketersediaan SDM terbatas, satu pengurus dapat memegang perangkapan fungsi secara transparan dengan batas kapasitas kerja yang disepakati.
-- **Ketentuan Khusus Wakil Ketua (Skalabilitas SDM):**
-  - **Kondisi Ideal (SDM Memadai):** Menggunakan format 2 Wakil Ketua (Waka 1: Klaster Internal AMI/MK/PAK, Waka 2: Klaster Eksternal & Proyek P3/BK/RP).
-  - **Kondisi Minimum (SDM Terbatas):** Jika ketersediaan personel tidak mencukupi, posisi wakil **cukup diisi oleh 1 orang (Wakil Ketua Tunggal)** yang memegang koordinasi umum seluruh divisi. Format 2 wakil baru diaktifkan ketika regenerasi dan jumlah pengurus telah mencukupi.
 - Perangkapan yang paling mungkin pada fase perintisan:
   - Divisi Administrasi & Media Informasi (AMI) dapat berkolaborasi erat dengan Divisi Media & Kreatif (MK).
   - Divisi Relasi Publik (RP) dan Divisi Bisnis & Kemitraan (BK) dapat dikoordinasikan sementara oleh satu penanggung jawab, dengan pencatatan relasi non-komersial dan komersial tetap dipisahkan.
-  - Wakil Ketua 1 dapat mendampingi fungsi Divisi AMI, MK, atau PAK sementara waktu jika posisi kepala divisi belum terisi definitif.
-  - Wakil Ketua 2 dapat mendampingi fungsi Divisi P3, BK, atau RP sementara waktu jika posisi kepala divisi belum terisi definitif.
+  - Wakil Ketua dapat mendampingi fungsi Divisi RP, Divisi BK, atau Divisi PAK sementara waktu jika posisi kepala divisi belum terisi definitif.
 - **Prinsip Anti-Overlap Wajib Dipatuhi:**
   - Sekretaris menjaga ranah **Internal HIMA**.
   - AMI memegang kanal **Internal Mahasiswa SI**.
@@ -629,3 +576,4 @@ flowchart TD
   - BK memegang **bisnis, sponsorship, dan kemitraan komersial**.
   - Keempat fungsi ini tidak boleh saling mencampuri kanal atau mengambil alih wewenang tanpa koordinasi.
 - Pekerjaan yang tidak mampu ditangani harus dieskalasi, disederhanakan, atau dijadwalkan ulang secara terbuka.
+
