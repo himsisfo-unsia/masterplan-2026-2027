@@ -104,7 +104,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tpcit-SM-DbBzxFonmqH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI SUMBER DAYA MANUSIA" vertex="1">
+        <mxCell id="tpcit-SM-DbBzxFonmqH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI PEMBERDAYAAN&lt;br&gt;ANGGOTA &amp;amp; KOMUNITAS" vertex="1">
           <mxGeometry height="60" width="120" x="-985" y="315" as="geometry" />
         </mxCell>
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-4" edge="1" parent="1" source="qzv-LVtL3dQrwDSMzqVT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="qzv-LVtL3dQrwDSMzqVT-2">
@@ -316,7 +316,7 @@
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-71" edge="1" parent="1" source="qzv-LVtL3dQrwDSMzqVT-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qzv-LVtL3dQrwDSMzqVT-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qzv-LVtL3dQrwDSMzqVT-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI&lt;div&gt;RELASI&lt;/div&gt;" vertex="1">
+        <mxCell id="qzv-LVtL3dQrwDSMzqVT-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI&lt;br&gt;RELASI PUBLIK" vertex="1">
           <mxGeometry height="60" width="120" x="455" y="320" as="geometry" />
         </mxCell>
         <mxCell id="qzv-LVtL3dQrwDSMzqVT-87" edge="1" parent="1" source="qzv-LVtL3dQrwDSMzqVT-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qzv-LVtL3dQrwDSMzqVT-83">
@@ -360,6 +360,18 @@
         </mxCell>
         <mxCell id="3IqUthYTdB9i9cqaYBuL-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WEBSITE RESMI HIMSISFO" vertex="1">
           <mxGeometry height="60" width="120" x="-1280" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="div-bisnis-kemitraan-grand" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI BISNIS &amp;amp;&lt;br&gt;KEMITRAAN" vertex="1">
+          <mxGeometry x="-50" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-pembentukan-divisi-to-bk" edge="1" parent="1" source="17ijcQs9vut2pD2LXgDH-7" target="div-bisnis-kemitraan-grand" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="prog-danus-sponsor-grand" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DANA USAHA &amp;amp;&lt;br&gt;SPONSORSHIP" vertex="1">
+          <mxGeometry x="-50" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-bk-to-danus" edge="1" parent="1" source="div-bisnis-kemitraan-grand" target="prog-danus-sponsor-grand" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -510,7 +522,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="414" y="259.94" />
-              <mxPoint x="240" y="259.94" />
+              <mxPoint x="150" y="259.94" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -518,12 +530,17 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="414" y="259.94" />
-              <mxPoint x="588" y="259.94" />
+              <mxPoint x="710" y="259.94" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-7" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M-4QLfHSWYejD21ERWxu-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="260" />
+              <mxPoint x="305" y="260" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="KETUA HIMA" vertex="1">
           <mxGeometry height="60" width="120" x="354" y="180" as="geometry" />
@@ -531,64 +548,47 @@
         <mxCell id="SveKrrZKj62WD1axqN30-10" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M-4QLfHSWYejD21ERWxu-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SveKrrZKj62WD1axqN30-11" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SveKrrZKj62WD1axqN30-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="414" y="380" />
-              <mxPoint x="264" y="380" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="SveKrrZKj62WD1axqN30-11" edge="1" parent="1" source="node-waka-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SveKrrZKj62WD1axqN30-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SveKrrZKj62WD1axqN30-12" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M-4QLfHSWYejD21ERWxu-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="414" y="380" />
-              <mxPoint x="114" y="380" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SveKrrZKj62WD1axqN30-13" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M-4QLfHSWYejD21ERWxu-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="414" y="380" />
-              <mxPoint x="564" y="380" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SveKrrZKj62WD1axqN30-14" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M-4QLfHSWYejD21ERWxu-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="414" y="380" />
-              <mxPoint x="714" y="380" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="SveKrrZKj62WD1axqN30-14" edge="1" parent="1" source="node-waka-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="M-4QLfHSWYejD21ERWxu-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M-4QLfHSWYejD21ERWxu-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WAKIL&lt;br&gt;KETUA HIMA" vertex="1">
-          <mxGeometry height="60" width="120" x="354" y="290" as="geometry" />
+        <mxCell id="JpnhaenSRn3wD3kDeJaX-1" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="node-waka-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M-4QLfHSWYejD21ERWxu-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WAKIL KETUA 1&lt;br&gt;(INTERNAL)" vertex="1">
+          <mxGeometry height="60" width="130" x="240" y="290" as="geometry" />
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="SEKRETARIS" vertex="1">
-          <mxGeometry height="60" width="120" x="180" y="290" as="geometry" />
+          <mxGeometry height="60" width="120" x="90" y="290" as="geometry" />
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="BENDAHARA" vertex="1">
-          <mxGeometry height="60" width="120" x="528" y="290" as="geometry" />
+          <mxGeometry height="60" width="120" x="650" y="290" as="geometry" />
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI PERENCANAAN &amp;amp; PENGEMBANGAN PROGRAM" vertex="1">
-          <mxGeometry height="60" width="120" x="654" y="410" as="geometry" />
+          <mxGeometry height="60" width="110" x="440" y="410" as="geometry" />
         </mxCell>
         <mxCell id="SveKrrZKj62WD1axqN30-15" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="M-4QLfHSWYejD21ERWxu-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI MEDIA KREATIF" vertex="1">
-          <mxGeometry height="60" width="120" x="354" y="410" as="geometry" />
+          <mxGeometry height="60" width="110" x="160" y="410" as="geometry" />
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI ADMINISTRASI &amp;amp; MEDIA INFORMASI" vertex="1">
-          <mxGeometry height="60" width="120" x="54" y="410" as="geometry" />
+          <mxGeometry height="60" width="110" x="30" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="M-4QLfHSWYejD21ERWxu-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI SUMBER DAYA MANUSIA" vertex="1">
-          <mxGeometry height="60" width="120" x="504" y="410" as="geometry" />
+        <mxCell id="M-4QLfHSWYejD21ERWxu-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI PEMBERDAYAAN ANGGOTA &amp;amp; KOMUNITAS" vertex="1">
+          <mxGeometry height="60" width="110" x="290" y="410" as="geometry" />
         </mxCell>
         <mxCell id="M-4QLfHSWYejD21ERWxu-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ANGGOTA&lt;br&gt;PENDUKUNG" vertex="1">
-          <mxGeometry height="60" width="720" x="54" y="525" as="geometry" />
+          <mxGeometry height="60" width="780" x="30" y="525" as="geometry" />
         </mxCell>
         <mxCell id="SveKrrZKj62WD1axqN30-2" edge="1" parent="1" source="SveKrrZKj62WD1axqN30-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M-4QLfHSWYejD21ERWxu-1">
           <mxGeometry relative="1" as="geometry" />
@@ -596,8 +596,8 @@
         <mxCell id="SveKrrZKj62WD1axqN30-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PEMBINA" vertex="1">
           <mxGeometry height="60" width="120" x="354" y="70" as="geometry" />
         </mxCell>
-        <mxCell id="SveKrrZKj62WD1axqN30-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI RELASI &amp;amp; KEMITRAAN" vertex="1">
-          <mxGeometry height="60" width="120" x="204" y="410" as="geometry" />
+        <mxCell id="SveKrrZKj62WD1axqN30-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI RELASI PUBLIK" vertex="1">
+          <mxGeometry height="60" width="110" x="700" y="410" as="geometry" />
         </mxCell>
         <mxCell id="SveKrrZKj62WD1axqN30-16" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.708;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" target="M-4QLfHSWYejD21ERWxu-16">
           <mxGeometry relative="1" as="geometry" />
@@ -609,6 +609,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SveKrrZKj62WD1axqN30-19" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0.057;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="M-4QLfHSWYejD21ERWxu-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node-waka-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="WAKIL KETUA 2&lt;br&gt;(EKSTERNAL &amp;amp; PROYEK)" vertex="1">
+          <mxGeometry height="60" width="130" x="490" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-ketua-to-waka2" edge="1" parent="1" source="M-4QLfHSWYejD21ERWxu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="node-waka-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="260" />
+              <mxPoint x="555" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="node-div-bk-so" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="DIVISI BISNIS &amp;amp; KEMITRAAN" vertex="1">
+          <mxGeometry height="60" width="110" x="570" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-waka2-to-bk" edge="1" parent="1" source="node-waka-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="node-div-bk-so">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="555" y="380" />
+              <mxPoint x="625" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-bk-to-pendukung" edge="1" parent="1" source="node-div-bk-so" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" target="M-4QLfHSWYejD21ERWxu-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
